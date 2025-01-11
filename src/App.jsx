@@ -83,7 +83,7 @@ function App() {
   return (
     <>
     <div className="bg-slate-200 h-screen w-full flex  justify-center items-center">
-      <div className='bg-white p-2 w-2/5 flex flex-col items-center justify-center rounded-lg '>
+      <div className='bg-white p-2 md:w-2/5 w-4/5 flex flex-col items-center justify-center rounded-lg '>
         <div className="w-4/5 mb-5">
         <form action="" className=' flex flex-col items-center justify-center ' onSubmit={handleSubmit}>
           {alert.show && <Alert {...alert} removeAlert={showAlert} list={list}/>}
